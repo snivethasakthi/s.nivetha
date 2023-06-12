@@ -1,0 +1,574 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    
+    background-image:url(./image7.jpg);
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+
+    text-decoration: none;
+    width: 300px;
+    padding-bottom: 50px;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .home {
+    float: left;
+    overflow: hidden;
+  }
+
+  .demos {
+    float: left;
+    overflow: hidden;
+  }
+
+
+  .dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover,
+  .dropdown:hover .dropbtn {
+    text-decoration: underline;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  a.dropdown-content {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .demos-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  a.demos-content {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+
+  .b {
+    background-color: blue;
+    padding-bottom: 15px;
+    padding-top: 5px;
+  }
+
+  .p {
+    list-style-type: none;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #0a0d0f;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .proto {
+    padding-top: auto;
+  }
+
+  .col-lg-6 {
+    color: aliceblue;
+  }
+
+  .v {
+    color: #264aeb;
+  }
+
+  .subtitle {
+    display: flex;
+    justify-content: space-around;
+    
+
+  }
+
+  .subtitle2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-right: 23px;
+
+  }
+
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 247, 247);
+    background-image: url(./nn.jpj.avif);
+  }
+
+  .navbar1 {
+    overflow: hidden;
+    background-color: white;
+    font-size: larger;
+    height: 155px;
+  }
+
+ 
+
+  .dropdown2 {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown2 .dropbtn1 {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar1 a:hover,
+  .dropdown2.dropdown2:hover .dropbtn1 {
+    text-decoration: underline;
+  }
+
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    min-width: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+  }
+
+  a.dropdown-content2 {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+
+
+
+  .dropdown-content2 a:hover {
+    background-color: black;
+  }
+
+  .dropdown2:hover .dropdown-content2 {
+    display: flex;
+
+  }
+
+  .p {
+    list-style-type: none;
+  }
+
+  .col-md-4 {
+    display: grid;
+    gap: 36px;
+
+  }
+
+  .grid-contanier1 {
+    display: grid;
+    padding-bottom: 55px;
+  }
+
+  .tools {
+    display: grid;
+    padding-bottom: 55px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    padding: 10px;
+  }
+ .proto2 {
+    padding-top: auto;
+  }
+
+
+ .tools {
+    color: rgb(253, 251, 251);
+    padding-bottom: 44px;
+  }
+
+  .img {
+    color: #ff3d3d;
+  }
+
+  body{
+            background-image:url(./image7.jpg);
+      }
+   .image{
+      justify-content: center;
+      align-items: center;
+      padding-left: 166px;
+   }
+   .content{
+    color: #ddd;
+   }
+   .grid-container4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    padding: 10px;
+   }
+   .ad{
+    color: deepskyblue;
+   }
+   .col-md-3{
+     padding-right: 33px;
+      width: 200px;
+      height: 200px;
+      border:2px solid #fff;
+      background: url(./images8.jpg) no-repeat;
+      box-shadow: 20px 20px 5px #ccc;
+      margin-left: 426px;
+      
+    }
+   
+</style>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <div class="proto">
+      <a href="#proto">
+        <h1>proto</h1>
+      </a>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">home
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <ul class="p">
+          <li><a href="#">demos</a></li>
+          <li><a href="#">elements</a></li>
+          <li><a href="#">features</a></li>
+          <li><a href="#">pages</a></li>
+          <li><a href="#">probollo</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">shop</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Demos
+        <i class="fa fa-caret-down"></i>
+      </button>
+
+      <div class="dropdown-content">
+        <ul class="p">
+          <li><a href="#">histoy</a></li>
+          <li><a href="#">applications</a></li>
+          <li><a href="#">features</a></li>
+          <li><a href="#">reference</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">elements
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <ul class="p">
+          <li><a href="#">proto one page category</a></li>
+          <li><a href="#">proto products filtrer</a></li>
+          <li><a href="#">360 degree image</a></li>
+          <li><a href="#">section scroll</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">features
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <ul class="p">
+          <li><a href="#">building</a></li>
+          <li><a href="#">prototyping</a></li>
+          <li><a href="#">collabration</a></li>
+          <li><a href="#">account management</a></li>
+          <li><a href="#">support&documentation</a></li>
+          <li><a href="#">security</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">page
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <ul class="p">
+          <li><a href="#">demos</a></li>
+          <li><a href="#">elements</a></li>
+          <li><a href="#">features</a></li>
+          <li><a href="#">pages</a></li>
+          <li><a href="#">probollo</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">shop</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">probollo
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <ul class="p">
+          <li><a href="#">demos</a></li>
+          <li><a href="#">elements</a></li>
+          <li><a href="#">features</a></li>
+          <li><a href="#">pages</a></li>
+          <li><a href="#">probollo</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">shop</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">blog
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <ul class="p">
+          <li><a href="#">demos</a></li>
+          <li><a href="#">elements</a></li>
+          <li><a href="#">features</a></li>
+          <li><a href="#">pages</a></li>
+          <li><a href="#">probollo</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">shop</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <button type="button" class="b">buy proto now!</button>
+  </div>
+  <div class="grid-container">
+    <div class="row">
+      <div class="col-lg-6"><span class="v">PROTO HTMLS TEMPLDTE</span>
+        <h3>multipurpose<br><span>website template</span></h3><br />
+        <div class="subtitle">
+          <span><i class="fa-brands fa-bootstrap">prebuilt sites</i></span>
+          <span><i class="fa-brands fa-bootstrap"> bootstrap</i></span>
+        </div>
+        <div class="subtitle2">
+          <span><i class="fa-sharp fa-solid fa-palette">skinbuilder</i></span>
+          <span><i class="fa-solid fa-code">flexible</i></span>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <img
+        src=https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg
+        width="400px" height="300px">
+      
+      </div>
+      
+  </div>
+ 
+  <div class="navbar1">
+    <div class="proto2">
+    </div>
+    <div class="dropdown2">
+      <button class="dropbtn1">showall
+        <i class="fa fa-caret-down"></i></a>
+      </button>
+      <div class="dropdown-content2">
+        <div class="grid-container1">
+          <div class="row">
+            <div class="col-md-4" style="display:flex;justify-content:space-between">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq2FUAM9zOjhMY6Og8T87_1VOB3gxx3KAZPw&usqp=CAU" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKn-X2ZRRr7DWK4gEnkQFFo_NSpS4dxoS-gg&usqp=CAU" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKn-X2ZRRr7DWK4gEnkQFFo_NSpS4dxoS-gg&usqp=CAU" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKn-X2ZRRr7DWK4gEnkQFFo_NSpS4dxoS-gg&usqp=CAU" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dropdown2">
+      <button class="dropbtn1">new
+        <i class="fa fa-caret-down"></i></a>
+      </button>
+      <div class="dropdown-content2">
+        <div class="grid-container1">
+          <div class="row">
+            <div class="col-md-4" style="display:flex;justify-content:space-between">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq2FUAM9zOjhMY6Og8T87_1VOB3gxx3KAZPw&usqp=CAU" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm1tGOxDKY6DjEn_4MScwP5EtS7UwKImpjLg&usqp=CAU" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq2FUAM9zOjhMY6Og8T87_1VOB3gxx3KAZPw&usqp=CAU" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dropdown2">
+      <button class="dropbtn1">classic
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content2">
+        <div class="grid-container1">
+          <div class="row">
+            <div class="col-md-4" style="display:flex;justify-content:space-between">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq2FUAM9zOjhMY6Og8T87_1VOB3gxx3KAZPw&usqp=CAU" />
+
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm1tGOxDKY6DjEn_4MScwP5EtS7UwKImpjLg&usqp=CAU" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq2FUAM9zOjhMY6Og8T87_1VOB3gxx3KAZPw&usqp=CAU" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dropdown2">
+      <button class="dropbtn1">shop
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content2">
+        <div class="grid-contaniner1">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="tools">The new generation of website templastes is here<br />
+                a complete suite of tools desiged to makes life eassier
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="tool2">
+            <i class="fa-brands fa-bootstrap"><br />bootstrap</i>&nbsp;&nbsp;
+            <i class="fa-sharp fa-solid fa-palette"><br />skinbuilder</i>&nbsp;&nbsp;
+            <i class="fa-solid fa-code"><br />fast and flexible</i>&nbsp;&nbsp;
+    
+          </div>
+          
+        </div>
+       
+                </div>
+           <div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+  </div>
+
+  </div>
+  </div>
+  </div>
+
+  </div>
+  </div>
+  </div>
+  <div class="image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm1tGOxDKY6DjEn_4MScwP5EtS7UwKImpjLg&usqp=CAU" width="1008" height="556" /></div>&nbsp;&nbsp;
+    <div class="grid-container">
+          <div class="row">
+                <div class="col-md-4" style="display:flex;justify-content:space-between">
+                     <span><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKn-X2ZRRr7DWK4gEnkQFFo_NSpS4dxoS-gg&usqp=CAU" /><p>content speed performance</p></span>
+                     <span><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKn-X2ZRRr7DWK4gEnkQFFo_NSpS4dxoS-gg&usqp=CAU" /><p>soild and tested base</p></span>
+                      <span><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKn-X2ZRRr7DWK4gEnkQFFo_NSpS4dxoS-gg&usqp=CAU" /><p>spacification</p></span>
+                      </div>
+          </div>
+
+</div>
+<div class="grid-container4">
+  <div class="row">
+    <div class="col-md-4">Indroduction proto admin<span class="ad">ADMIN WITH SAME LOOK FEEL AS THE PROTO-END</span>fornt-end advanced forms,etc.......  <button type="button" class="b">view proto admin</button></div>
+  </div>
+  <div class="col-md-3">
+   </div>
+  </body>
+
+</html>
